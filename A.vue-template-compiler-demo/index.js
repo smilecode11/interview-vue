@@ -6,11 +6,11 @@ const compiler = require('vue-template-compiler')
 // h -> vnode
 // createElement -> vnode
 
-// // 表达式
+// 表达式
 // const template = `<p>{{flag ? message : 'no message found'}}</p>`
-// // with(this){return _c('p',[_v(_s(flag ? message : 'no message found'))])}
+// with(this){return _c('p',[_v(_s(flag ? message : 'no message found'))])}
 
-// // 属性和动态属性
+// 属性和动态属性
 // const template = `
 //     <div id="div1" class="container">
 //         <img :src="imgUrl"/>
@@ -21,7 +21,7 @@ const compiler = require('vue-template-compiler')
 //      [
 //          _c('img',{attrs:{"src":imgUrl}})])}
 
-// // 条件
+// 条件
 // const template = `
 //     <div>
 //         <p v-if="flag === 'a'">A</p>
