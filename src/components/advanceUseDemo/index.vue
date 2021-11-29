@@ -45,7 +45,10 @@
     </button> -->
 
     <!-- keepAlive -->
-    <KeepAliveDemo />
+    <!-- <KeepAliveDemo /> -->
+
+    <!-- 请求放在那里 -->
+    <AjaxDemo />
   </div>
 </template>
 
@@ -56,8 +59,8 @@
 // import ScopedSlotDemo from "./ScopedSlotDemo.vue";
 // import NameSlotDemo from "./NameSlotDemo.vue";
 // import ComponentId from "./ComponentId.vue";
-
-import KeepAliveDemo from "./KeepAlive.vue";
+// import KeepAliveDemo from "./KeepAlive.vue";
+import AjaxDemo from './AjaxDemo.vue'
 
 export default {
   computed: {},
@@ -91,7 +94,8 @@ export default {
     // ScopedSlotDemo,
     // NameSlotDemo,
     // ComponentId,
-    KeepAliveDemo,
+    // KeepAliveDemo,
+    AjaxDemo
   },
 };
 </script>
