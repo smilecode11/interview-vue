@@ -14,7 +14,10 @@
     <!-- <ComponentsDemo></ComponentsDemo> -->
 
     <!-- 自定义 v-model -->
-    <AdvanceUseDemo></AdvanceUseDemo>
+    <!-- <AdvanceUseDemo></AdvanceUseDemo> -->
+
+    <!-- 购物车组件设计 -->
+    <ShopCardDemo></ShopCardDemo>
   </div>
 </template>
 
@@ -28,7 +31,8 @@
 // import EventDemo from "./components/BaseUse/EventDemo.vue";
 // import FormDemo from "./components/BaseUse/FormDemo.vue";
 // import ComponentsDemo from './components/ComponentsDemo/Index.vue'
-import AdvanceUseDemo from './components/advanceUseDemo/index.vue'
+// import AdvanceUseDemo from './components/advanceUseDemo/index.vue'
+import ShopCardDemo from './components/ShoppCardDemo'
 
 export default {
   name: "App",
@@ -42,7 +46,8 @@ export default {
     // EventDemo,
     // FormDemo,
     // ComponentsDemo,
-    AdvanceUseDemo,
+    // AdvanceUseDemo,
+    ShopCardDemo
   },
 };
 </script>
