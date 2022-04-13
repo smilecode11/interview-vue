@@ -17,7 +17,10 @@
     <!-- <AdvanceUseDemo></AdvanceUseDemo> -->
 
     <!-- 购物车组件设计 -->
-    <ShopCardDemo></ShopCardDemo>
+    <!-- <ShopCardDemo></ShopCardDemo> -->
+
+    <!-- Vuex 购物车状态设计 -->
+    <VuexShopCardDemo></VuexShopCardDemo>
   </div>
 </template>
 
@@ -32,7 +35,8 @@
 // import FormDemo from "./components/BaseUse/FormDemo.vue";
 // import ComponentsDemo from './components/ComponentsDemo/Index.vue'
 // import AdvanceUseDemo from './components/advanceUseDemo/index.vue'
-import ShopCardDemo from './components/ShoppCardDemo'
+// import ShopCardDemo from './components/ShoppCardDemo'
+import VuexShopCardDemo from './components/VuexShopCardDemo'
 
 export default {
   name: "App",
@@ -47,7 +51,8 @@ export default {
     // FormDemo,
     // ComponentsDemo,
     // AdvanceUseDemo,
-    ShopCardDemo
+    // ShopCardDemo
+    VuexShopCardDemo
   },
 };
 </script>
