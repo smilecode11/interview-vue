@@ -26,13 +26,13 @@ export default {
   },
   methods: {
     handleIncrease(product) {
-      this.addProdToCard(product);
+      this.addProdToCart(product);
     },
     handleDecrease(product) {
       this.deleteProdFromCart(product);
     },
     ...mapActions({
-      addProdToCard: "cart/addProdToCard",
+      addProdToCart: "cart/addProdToCart",
       deleteProdFromCart: "cart/deleteProdFromCart",
     }),
   },

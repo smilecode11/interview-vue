@@ -30,7 +30,7 @@ const actions = {
     checkout() { },
 
     /** 添加到购物车*/
-    addProdToCard({ state, commit }, product) {
+    addProdToCart({ state, commit }, product) {
         const cartItem = state.items.find(item => item.id === product.id)
         if (cartItem) { //  商品数量加一
             commit('incrementItemQuantity', { id: product.id })

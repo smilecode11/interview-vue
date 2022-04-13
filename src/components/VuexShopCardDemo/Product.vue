@@ -27,7 +27,7 @@ export default {
       this.addProductToCart(item)
     },
     ...mapActions({
-      addProductToCart: "cart/addProdToCard",
+      addProductToCart: "cart/addProdToCart",
       getAllProducts: 'products/getAllProducts'
     }),
   },
